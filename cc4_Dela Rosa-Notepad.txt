@@ -31,7 +31,6 @@
 
             var newValue = text.split(oldString).join(newString);
 
-            // Display the updated text in the paragraph with id="parap"
             document.getElementById("parap").textContent = newValue;
         }
         </script>
